@@ -44,7 +44,7 @@ const ProductDetails = async ({ params: { id } }: Props) => {
                 target="_blank"
                 className="text-base text-black opacity-50"
               >
-                Visit Product
+                Visitar produto
               </Link>
             </div>
 
@@ -120,8 +120,7 @@ const ProductDetails = async ({ params: { id } }: Props) => {
               </div>
 
               <p className="text-sm text-black opacity-50">
-                <span className="text-primary-green font-semibold">93% </span> of
-                buyers have recommeded this.
+                <span className="text-primary-green font-semibold">93% </span> dos compradores recomendaram-no.
               </p>
             </div>
           </div>
@@ -158,7 +157,7 @@ const ProductDetails = async ({ params: { id } }: Props) => {
       <div className="flex flex-col gap-16">
         <div className="flex flex-col gap-5">
           <h3 className="text-2xl text-secondary font-semibold">
-            Product Description
+            Descrição do produto
           </h3>
 
           <div className="flex flex-col gap-4">
@@ -175,7 +174,7 @@ const ProductDetails = async ({ params: { id } }: Props) => {
           />
 
           <Link href="/" className="text-base text-white">
-            Buy Now
+            Comprar agora
           </Link>
         </button>
       </div>

@@ -32,7 +32,7 @@ const Modal = ({ productId }: Props) => {
   return (
     <>
       <button type="button" className="btn" onClick={openModal}>
-        Track
+        Rastrear
       </button>
 
       <Transition appear show={isOpen} as={Fragment}>
@@ -87,17 +87,17 @@ const Modal = ({ productId }: Props) => {
                   </div>
 
                   <h4 className="dialog-head_text">
-                    Stay updated with product pricing alerts right in your inbox!
+                  Mantenha-se atualizado com alertas de preços de produtos diretamente na sua caixa de correio eletrónico!
                   </h4>
 
                   <p className="text-sm text-gray-600 mt-2">
-                    Never miss a bargain again with our timely alerts!
+                  Nunca mais perca uma pechincha com os nossos alertas oportunos!
                   </p>
                 </div>
 
                 <form className="flex flex-col mt-5" onSubmit={handleSubmit}>
                   <label htmlFor="email" className="text-sm font-medium text-gray-700">
-                    Email address
+                    Email
                   </label>
                   <div className="dialog-input_container">
                     <Image 
@@ -113,7 +113,7 @@ const Modal = ({ productId }: Props) => {
                       id="email"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
-                      placeholder="Enter your email address"
+                      placeholder="Introduza o seu endereço de email"
                       className='dialog-input'
                     />
                   </div>
@@ -121,7 +121,7 @@ const Modal = ({ productId }: Props) => {
                   <button type="submit"
                     className="dialog-btn"
                   >
-                    {isSubmitting ? 'Submitting...' : 'Track'}
+                    {isSubmitting ? 'Enviando...' : 'Rastrear'}
                   </button>
                 </form>
               </div>

@@ -13,7 +13,7 @@ const Home = async () => {
         <div className="flex max-xl:flex-col gap-16">
           <div className="flex flex-col justify-center"> 
             <p className="small-text">
-              Smart Shopping Starts Here:
+            Compras inteligentes começam aqui:
               <Image 
                 src="/assets/icons/arrow-right.svg"
                 alt="arrow-right"
@@ -23,12 +23,12 @@ const Home = async () => {
             </p>
 
             <h1 className="head-text">
-              Unleash the Power of
+              Liberte o poder do
               <span className="text-primary"> PriceWise</span>
             </h1>
 
             <p className="mt-6">
-              Powerful, self-serve product and growth analytics to help you convert, engage, and retain more.
+              Poderosa análise de crescimento e de produtos de autosserviço para o ajudar a converter, envolver e reter mais.
             </p>
 
             <Searchbar />
@@ -39,7 +39,7 @@ const Home = async () => {
       </section>
 
       <section className="trending-section">
-        <h2 className="section-text">Trending</h2>
+        <h2 className="section-text">Tendências</h2>
 
         <div className="flex flex-wrap gap-x-8 gap-y-16">
           {allProducts?.map((product) => (

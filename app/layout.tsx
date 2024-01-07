@@ -11,7 +11,7 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   title: 'Pricewise',
-  description: 'Track product prices effortlessly and save money on your online shopping.',
+  description: 'Acompanhe os preços dos produtos sem esforço e poupe dinheiro nas suas compras online.',
 }
 
 export default function RootLayout({
@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="pt">
       <body className={inter.className}>
         <main className="max-w-10xl mx-auto">
           <Navbar />
